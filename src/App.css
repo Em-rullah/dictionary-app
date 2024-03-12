@@ -357,3 +357,13 @@
   text-align: center;
   color: red;
 }
+
+@media (max-width: 800px) {
+  html {
+    font-size: 50%;
+  }
+
+  .main-container {
+    width: 90%;
+  }
+}
