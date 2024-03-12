@@ -23,18 +23,24 @@
   box-sizing: border-box;
 }
 html {
+  height: 100%;
   font-size: 62.5%;
 }
 
 body {
   font-family: "lora", serif;
-  height: 100vh;
+  min-height: 100%;
   background-color: #f8f9fa;
-  display: grid;
-  place-items: center;
   font-size: 1.8rem;
 }
 
 #root {
-  width: 60%;
+  width: 100%;
+  min-height: 100vh;
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
 }
