@@ -24,6 +24,7 @@
 }
 html {
   height: 100%;
+  width: 100%;
   font-size: 62.5%;
 }
 
@@ -35,6 +36,5 @@ body {
 }
 
 #root {
-  width: 100%;
   min-height: 100vh;
 }
